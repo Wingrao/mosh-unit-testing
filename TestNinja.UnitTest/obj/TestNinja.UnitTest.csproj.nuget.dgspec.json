@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mehmet\\Documents\\Courses\\Core\\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\\01 Getting Started\\source-code-starter\\TestNinja\\TestNinja.UnitTest\\TestNinja.UnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mehmet\\Documents\\Courses\\Core\\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\\01 Getting Started\\source-code-starter\\TestNinja\\TestNinja.UnitTest\\TestNinja.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mehmet\\Documents\\Courses\\Core\\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\\01 Getting Started\\source-code-starter\\TestNinja\\TestNinja.UnitTest\\TestNinja.UnitTest.csproj",
+        "projectName": "TestNinja.UnitTest",
+        "projectPath": "C:\\Users\\Mehmet\\Documents\\Courses\\Core\\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\\01 Getting Started\\source-code-starter\\TestNinja\\TestNinja.UnitTest\\TestNinja.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Mehmet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mehmet\\Documents\\Courses\\Core\\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\\01 Getting Started\\source-code-starter\\TestNinja\\TestNinja.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mehmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Mehmet\\Documents\\Courses\\Core\\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\\01 Getting Started\\source-code-starter\\TestNinja\\TestNinja\\TestNinja.csproj": {
+                "projectPath": "C:\\Users\\Mehmet\\Documents\\Courses\\Core\\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\\01 Getting Started\\source-code-starter\\TestNinja\\TestNinja\\TestNinja.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mehmet\\Documents\\Courses\\Core\\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\\01 Getting Started\\source-code-starter\\TestNinja\\TestNinja\\TestNinja.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mehmet\\Documents\\Courses\\Core\\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\\01 Getting Started\\source-code-starter\\TestNinja\\TestNinja\\TestNinja.csproj",
+        "projectName": "TestNinja",
+        "projectPath": "C:\\Users\\Mehmet\\Documents\\Courses\\Core\\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\\01 Getting Started\\source-code-starter\\TestNinja\\TestNinja\\TestNinja.csproj"
+      },
+      "frameworks": {
+        "net45": {}
+      }
+    }
+  }
+}
