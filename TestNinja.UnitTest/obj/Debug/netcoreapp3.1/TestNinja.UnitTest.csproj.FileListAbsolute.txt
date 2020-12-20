@@ -105,3 +105,5 @@ C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Develo
 C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
 C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja.UnitTest\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja.UnitTest\obj\Debug\netcoreapp3.1\TestNinja.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja.UnitTest\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja.UnitTest\bin\Debug\netcoreapp3.1\Moq.dll

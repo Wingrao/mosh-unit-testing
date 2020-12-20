@@ -25,3 +25,8 @@ C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Develo
 C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
 C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja\obj\Debug\TestNinja.dll
 C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja\obj\Debug\TestNinja.pdb
+C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja\bin\Debug\Castle.Core.dll
+C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja\bin\Debug\Moq.dll
+C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja\bin\Debug\Castle.Core.xml
+C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja\bin\Debug\Moq.pdb
+C:\Users\Mehmet\Documents\Courses\Core\CodeWithMosh - Unit Testing for C# Developers [AhLaN]\01 Getting Started\source-code-starter\TestNinja\TestNinja\bin\Debug\Moq.xml
