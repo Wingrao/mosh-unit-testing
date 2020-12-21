@@ -2,15 +2,23 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
 
 namespace TestNinja.Mocking
 {
     public class VideoService
     {
-        public string ReadVideoTitle(IFileReader fileReader)
+        private IFileReader _fileReader;
+        private IVideoRepository _repository;
+
+        public VideoService(IFileReader fileReader = null, IVideoRepository repository = null)
         {
-            var str =  fileReader.Read("video.txt");
+            _fileReader = fileReader ?? new FileReader();
+            _repository = repository ?? new VideoRepository();
+        }
+
+        public string ReadVideoTitle()
+        {
+            var str = _fileReader.Read("video.txt");
             var video = JsonConvert.DeserializeObject<Video>(str);
             if (video == null)
                 return "Error parsing the video.";
@@ -20,19 +28,12 @@ namespace TestNinja.Mocking
         public string GetUnprocessedVideosAsCsv()
         {
             var videoIds = new List<int>();
-            
-            using (var context = new VideoContext())
-            {
-                var videos = 
-                    (from video in context.Videos
-                    where !video.IsProcessed
-                    select video).ToList();
-                
-                foreach (var v in videos)
-                    videoIds.Add(v.Id);
 
-                return String.Join(",", videoIds);
-            }
+            var videos = _repository.GetUnprocessedVideos();
+            foreach (var v in videos)
+                videoIds.Add(v.Id);
+
+            return String.Join(",", videoIds);
         }
     }
 
